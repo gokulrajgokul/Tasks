@@ -1,0 +1,3 @@
+
+    list.innerHTML=localstorage.getItem("value");
+    localStorage.setItem('value',input.value);

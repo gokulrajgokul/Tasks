@@ -1,0 +1,11 @@
+function deleteItem(event) {
+    document.querySelectorAll(".task-text").remove();
+   /* event.target.parentElement.remove();*/
+}
+
+
+${input.value}
+
+
+  list.innerHTML=localstorage.getItem("value");
+    localStorage.setItem('value',input.value);

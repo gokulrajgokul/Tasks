@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: burlywood;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+ 
+.calculator {
+    width: 260px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.display {
+    width: 200px;
+    height: 50px;
+    text-align: right;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.buttons button {
+    width: 23%;
+    height: 50px;
+   
+}

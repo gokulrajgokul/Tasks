@@ -1,0 +1,22 @@
+if (val2 !== 0) {
+        document.getElementById("ans").value = val1 / val2;
+    } else {
+        alert("Cannot divide by zero!");
+    }
+
+
+
+
+    var input=document.getElementById('display').value;
+
+
+function appendValue(value) {
+    input += value;
+}
+function clearDisplay() {
+    input = '';
+}
+function calculateResult() {
+    
+   input = eval(document.getElementById('display').value);
+}

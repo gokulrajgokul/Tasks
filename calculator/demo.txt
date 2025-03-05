@@ -1,0 +1,5 @@
+if (val2 !== 0) {
+        document.getElementById("ans").value = val1 / val2;
+    } else {
+        alert("Cannot divide by zero!");
+    }

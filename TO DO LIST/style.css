@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+.content{
+    text-align:center;
+    margin-top: 50px;
+}
+input{
+    border-radius:10px;
+    height:30px;
+    width:300px;
+    color :black;
+    background-color: burlywood;
+}
+button{
+    width:70px;
+    height:30px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    display:inline;
+    justify-content: center;
+   
+ 
+}
+ul li{
+    padding:20px;
+    background-color: blanchedalmond;
+    width:500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 500px;
+   
+    border-radius: 20px;
+}
+@media screen and (max-width: 900px) {
+    input {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    ul li {
+        width: 90%; /* Make list items adapt */
+        margin: 10px auto; /* Center the items */
+        flex-direction: row; /* Stack content vertically */
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    input {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+    ul li {
+        width: 90%; /* Make list items adapt */
+        margin: 10px auto; /* Center the items */
+        flex-direction: row; /* Stack content vertically */
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    input {
+        width: 95%; /* Adjust width for smaller screens */
+    }
+    ul li {
+        width: 95%; /* Make list items adapt */
+        margin: 10px auto; /* Center the items */
+        flex-direction: row; /* Stack content vertically */
+        text-align: center;
+    }
+}

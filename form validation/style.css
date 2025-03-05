@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    border: 2px solid black;
+    max-width: 200px;
+    border-radius: 5px;
+    
+    padding:40px;
+}
+label{
+    display: block;
+}
+input{
+    margin:6px;
+}
+#btn{
+    padding:5px;
+    border-radius: 5px;
+    background-color: blue;
+    
+}
+p{
+    color:red;
+}
