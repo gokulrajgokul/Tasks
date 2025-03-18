@@ -1,0 +1,23 @@
+/* *{
+    margin:0px;
+    padding:0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+}
+label{
+    font-size: 20px;
+    margin: 30px 0px;
+}
+input{
+    padding:10px;
+    margin:4px;
+} */
