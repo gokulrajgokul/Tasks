@@ -1,0 +1,64 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Quiz Container */
+.container {
+    width: 50%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Question Styling */
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Options Styling */
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    margin : 0px 50px;
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Next Button */
+#next-btn {
+    margin-top: 20px;
+}
+
+#next-btn button {
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+/* Score Styling */
+#score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
